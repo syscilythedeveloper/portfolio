@@ -3181,6 +3181,7 @@ body.is-ie .spotlights > section {
   justify-content: center;
   width: 50em;
   -ms-flex: 1;
+  flex: 1;
 }
 
 .spotlights > section > .content > .inner {
