@@ -2997,10 +2997,6 @@ ul.menu > li:first-child {
   margin-bottom: 10px; /* Optional: adds spacing between list items */
 }
 
-.extra {
-  display: none;
-}
-
 /* Section/Article */
 
 section.special,
