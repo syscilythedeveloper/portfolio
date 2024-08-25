@@ -371,6 +371,35 @@ h6 {
 .inner .icons a:hover {
   color: #007bff; /* Adjust hover color as needed */
 }
+	/* Project Section Styles */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    }
+    
+    .project-item {
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+    }
+    
+    .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }
+    
+    .project-item h4 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #F7EFB9
+    }
+    
+    .project-item p {
+    font-size: 1rem;
+    color: #666;
+    }
 
 @media screen and (max-width: 736px) {
   h1 {
@@ -3912,35 +3941,7 @@ body.is-preload #sidebar nav ul li {
   opacity: 0;
 }
 
-/* Project Section Styles */
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
 
-.project-item {
-  flex: 1 1 calc(50% - 1rem);
-  box-sizing: border-box;
-}
-
-.project-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.project-item h4 {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-  text-align: center;
-  color: #F7EFB9
-}
-
-.project-item p {
-  font-size: 1rem;
-  color: #666;
-}
 
 
 @media screen and (max-width: 1280px) {
