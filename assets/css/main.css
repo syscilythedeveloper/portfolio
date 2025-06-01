@@ -373,9 +373,12 @@ h6 {
 }
 /* Project Section Styles */
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 .project-item {
@@ -400,6 +403,16 @@ h6 {
   font-size: 1rem;
   color: #666;
 }
+
+.projects .project-item img {
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+/* 
 
 @media screen and (max-width: 736px) {
   h1 {
